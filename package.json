@@ -39,7 +39,7 @@
     "m:new": "sequelize migration:create",
     "m:up": "sequelize db:migration",
     "m:down": "sequelize db:migration:undo",
-    "initseq": "sequelize init:config && sequelize init:migrations"
+    "initseq": "sequelize init:config && sequelize init:migrations && sequelize init:seeders && sequelize init:models"
   },
   "ci": {
     "version": "10"
